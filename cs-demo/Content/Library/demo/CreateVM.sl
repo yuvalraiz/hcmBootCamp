@@ -3,6 +3,14 @@ flow:
   name: CreateVM
   inputs:
     - host: 10.0.46.10
+    - username: "Capa1\\1286-capa1user"
+    - password:
+        value: Automation123
+        sensitive: true
+    - datacenter: Capa1 Datacenter
+    - image: Ubuntu
+    - folder: Students/raiz
+    - prefix_list: '1-,2-,3-'
   workflow:
     - uuid:
         do:
@@ -28,14 +36,6 @@ flow:
           - SUCCESS: SUCCESS
           - FAILURE: on_failure
   outputs:
-    - username: "Capa1\\1286-capa1user"
-    - password:
-        value: Automation123
-        sensitive: true
-    - datacenter: Capa1 Datacenter
-    - image: Ubuntu
-    - folder: Students/raiz
-    - prefix_list: '1-,2-,3-'
   results:
     - SUCCESS
     - FAILURE
