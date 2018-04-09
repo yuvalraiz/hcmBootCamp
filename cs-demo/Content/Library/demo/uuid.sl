@@ -8,6 +8,7 @@ operation:
           import uuid
           uuid = str(uuid.uuid1())
 
+
     outputs:
       - uuid: ${uuid}
 
