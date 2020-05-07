@@ -47,7 +47,7 @@ flow:
             - auth_type: basic
             - username: admin
             - password:
-                value: ********
+                value: 
                 sensitive: true
             - method: HEAD
         publish:
@@ -63,7 +63,7 @@ flow:
             - auth_type: anonymous
             - username: null
             - password:
-                value: ********
+                value: 
                 sensitive: true
             - headers: "${'X-CSRF-TOKEN:%s' % token}"
             - method: GET
