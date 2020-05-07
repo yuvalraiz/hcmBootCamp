@@ -138,8 +138,8 @@ extensions:
         x: 450
         'y': 544
         navigate:
-          18afb518-d8b6-616e-ce98-551ed1ce7fae:
-            targetId: 4bde339f-f63c-4140-0dd2-fe0c5becc6c0
+          ce278cd6-586f-43ee-f58c-95449db51652:
+            targetId: ef3a5db0-79b1-16dc-a92e-4ecbe0407f90
             port: SUCCESS
       json_path_query:
         x: 133
@@ -167,6 +167,6 @@ extensions:
         'y': 84
     results:
       SUCCESS:
-        4bde339f-f63c-4140-0dd2-fe0c5becc6c0:
+        ef3a5db0-79b1-16dc-a92e-4ecbe0407f90:
           x: 631
           'y': 630
