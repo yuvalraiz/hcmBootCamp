@@ -1,6 +1,6 @@
 namespace: YuvalRaiz.yrRPA_BootCamp_2020_02
 flow:
-  name: python
+  name: python_expressions
   workflow:
     - sleep_1_2:
         loop:
