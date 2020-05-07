@@ -1,4 +1,4 @@
-namespace: YuvalRaiz.yrRPA_BootCamp_2020_02
+namespace: YuvalRaiz.RPA_bootcamp_2020_02
 flow:
   name: python_expressions
   workflow:
