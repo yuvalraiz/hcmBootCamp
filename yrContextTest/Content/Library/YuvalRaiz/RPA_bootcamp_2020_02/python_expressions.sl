@@ -1,4 +1,4 @@
-namespace: yrContent.yrRPA_BootCamp_2020_02
+namespace: YuvalRaiz.yrRPA_BootCamp_2020_02
 flow:
   name: python
   workflow:
